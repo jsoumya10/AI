@@ -1,0 +1,3 @@
+a= input("ENTER NUMBER 1:")
+b= input("ENTER NUMBER 2: ")
+print (float(a)+float(b))
