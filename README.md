@@ -1,0 +1,2 @@
+# AI
+python lab work
