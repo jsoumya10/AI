@@ -1,0 +1,2 @@
+str= input("ENTER YOUR FULL NAME: ")
+print(str);
