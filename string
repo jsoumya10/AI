@@ -1,0 +1,3 @@
+str="hello how r u ..."
+
+print(str[5:12])
