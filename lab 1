@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{LAB 1}
+\author{jainsoumya032 }
+\date{September 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction of GOOGLE COLABORATORY}
+\texttt{
+\large Google Colaboratory is the cloud version of Jupyter Notebook. In fact, the Welcome page makes this fact apparent. It even uses IPython (the previous name for Jupyter) Notebook (.ipynb) files for the site.}
+\\
+
+\begin{figure}[htp]
+ \centering
+   
+    \includegraphics[width=16cm]{Screenshot (62).png}
+    \caption {GOOGLE COLABORATORY }
+    
+\end{figure}
+
+
+\section{Introduction of PYTHON}
+\begin{figure}[htp]
+ \centering
+   
+    \includegraphics[width=5cm]{python.png}
+    \caption {PYTHON}
+    
+\end{figure}
+
+
+\textsl{ Python is a popular programming language.} It was created by Guido van Rossum, and released in 1991.
+\texttt{\\It is used for:
+\\ web development (server-side),
+\\ software development,
+\\ mathematics,
+\\ system scripting.}
+
+\section{Implementation of PYTHON Programs}
+
+\begin{figure}[htp]
+ \centering
+   
+    \includegraphics[width=15cm]{pythooon.png}
+    \caption {FUNCTIONS}
+    
+\end{figure}
+
+\begin{figure}[htp]
+ \centering
+   
+    \includegraphics[width=15cm]{Screenshot (10).png}
+    \caption {Program}
+    
+\end{figure}
+
+
+
+
+
+
+
+
+ 
+
+
+
+\end{document}
