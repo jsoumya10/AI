@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{minted}
+\usepackage{graphicx}
+
+\title{DFS}
+\author{jainsoumya032 }
+\date{28 September 2022}
+
+\begin{document}
+\maketitle
+\section{Depth-first search }
+\begin{figure}[htp]
+ \centering
+   
+    \includegraphics[width=16cm]{dfs.png}
+    \caption {Depth First Search }
+    
+\end{figure}
+ \begin{minted}{python}
+
+
+graph = {
+    'A' : ['B','C'],
+    'B' : ['D', 'E'],
+    'C' : ['F'],
+    'D' : [],
+    'E' : ['F'],
+    'F' : []
+}
+
+visited = set() # Set to keep track of visited nodes.
+
+def dfs(visited, graph, node):
+    if node not in visited:
+        print (node)
+        visited.add(node)
+        for neighbour in graph[node]:
+            dfs(visited, graph, neighbour)
+
+# Driver Code
+dfs(visited, graph, 'A')
+\maketitle
+
+
+\end{minted}
+\end{document}
